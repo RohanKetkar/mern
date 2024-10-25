@@ -1,0 +1,80 @@
+*{
+
+margin:0;
+
+padding:0;
+/* background-color:rgb(241, 196, 196); */
+
+font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+.div1{
+
+min-width:100vw;
+
+height:100vh;
+
+
+display:flex;
+
+justify-content:center;
+align-items:center;
+
+margin-top:5%;
+
+}
+
+.left{
+
+width:28%;
+
+height:78%;
+
+background-image:url("https://img.freepik.com/free-photo/abstract-uv-ultraviolet-light-composition_23-2149243965.jpg");
+
+background-repeat:no-repeat;
+
+margin-top:10%;
+color:white;
+}
+.right{
+
+width:40%;
+
+height:78%;
+background-color:rgba(195, 195, 228, 0.442);
+position:relative;
+
+
+
+
+
+
+}
+
+img{
+position:absolute;
+
+top:-20%;
+
+left:68%;
+z-index:-1;
+
+box-shadow:10px -10px 60px rgb(39, 37, 37);
+
+}
+h3{
+
+color:rgb(27, 235, 100);
+font-size:21px;
+
+}
+
+h2{
+
+color:rgb(235, 215, 215);
+font-size:18px;
+
+}
